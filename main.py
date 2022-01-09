@@ -12,7 +12,6 @@ green = int(punch * 0.4)
 red = int(punch * 0.25)
 
 print('\n[ YELLOW CHEMICAL ] > {0:,}'.format(yellow))
-print(colorama.ansi.clear_screen())
 print('[ BLUE CHEMICAL ] > {0:,}'.format(blue))
 print('[ PINK CHEMICAL ] > {0:,}'.format(pink))
 print('[ GREEN CHEMICAL ] > {0:,}'.format(green))
